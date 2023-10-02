@@ -3,10 +3,6 @@ if(!isset($_GET['gclid']){
     echo "<h1>Welcome to Customero....you will be redirectiring</h1>";
     echo date();
     die();
-}elseif(!isset($_GET['utm_medium']){
-    echo "<h1>Welcome to Customero....you will be redirectiring</h1>";
-    echo date();
-    die(); 
 }
 ?>
 <html>
