@@ -18,6 +18,16 @@ if((!isset($_GET['gclid'])) && (!isset($_GET['utm_medium']))){
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>App.le Customero Service</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11359428600">
+        </script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'AW-11359428600');
+        </script>
     </head>
     <body> 
         <div class="container mt-2">
