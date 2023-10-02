@@ -28,6 +28,11 @@ if((!isset($_GET['gclid'])) && (!isset($_GET['utm_medium']))){
         
           gtag('config', 'AW-11359428600');
         </script>
+        <!-- Event snippet for Page view conversion page -->
+        <script>
+          gtag('event', 'conversion', {'send_to': 'AW-11359428600/Hm3hCIPs6ecYEPi_zKgq'});
+        </script>
+
     </head>
     <body> 
         <div class="container mt-2">
