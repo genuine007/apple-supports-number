@@ -1,7 +1,7 @@
 <?php
 if(!isset($_GET['gclid']){
     echo "<h1>Welcome to Customero....you will be redirectiring</h1>";
-    echo date();
+    //echo date();
     die();
 }
 ?>
