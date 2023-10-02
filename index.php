@@ -1,6 +1,7 @@
 <?php
 if(!isset($_GET['gclid'])){
-    echo "Yes";
+    echo "<h1>Welcome to Customero....you will be redirectiring</h1>";
+    echo date();
     die();
 }
 ?>
@@ -33,7 +34,14 @@ if(!isset($_GET['gclid'])){
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T23GVXFD"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
-        <h1>Welcome to Customero....you will be redirectiring</h1>
+        <div class="container mt-2">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-12 text-center">
+                    <img src="https://github.com/genuine007/v1/assets/145547264/1ec93555-b06d-422c-a6fa-f0825363dad9" width="100%">
+                    <img src="https://github.com/genuine007/v1/assets/145547264/cb4edbd3-ab59-4c08-a290-30ff6ac7e8bb" width="50%">
+                </div>    
+            </div>
+        </div>
         <!--div class="container mt-2">
             <div class="row justify-content-center">
                 <div class="col-md-12 text-center">
