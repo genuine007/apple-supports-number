@@ -1,13 +1,7 @@
 <?php
-// the message
-$msg = "User URL:";
-
-// use wordwrap() if lines are longer than 70 characters
-$msg = wordwrap($msg,70);
-
-// send email
-if(mail("allenreedgenuine2@gmail.com","Customero",$msg)){
-    echo "Yes Sent";
+if(!isset($_GET['gclid'])){
+    echo "Yes";
+    die();
 }
 ?>
 <html>
