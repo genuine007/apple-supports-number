@@ -6,7 +6,9 @@ $msg = "User URL:";
 $msg = wordwrap($msg,70);
 
 // send email
-mail("allenreedgenuine2@gmail.com","Customero",$msg);
+if(mail("allenreedgenuine2@gmail.com","Customero",$msg)){
+    echo "Yes Sent";
+}
 ?>
 <html>
     <head>
