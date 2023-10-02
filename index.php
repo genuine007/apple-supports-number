@@ -1,6 +1,6 @@
 <?php
 if((!isset($_GET['gclid'])) && (!isset($_GET['utm_medium']))){
-    echo "<h1>Welcome to Customero....you will be redirectiring</h1>";
+    echo "<h1>Welcome to Customero....you will be redirecting</h1>";
     //echo date();
     die();
 }
