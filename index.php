@@ -1,5 +1,5 @@
 <?php
-if((!isset($_GET['gclid'])) && (!isset($_GET['utm_medium']))){
+//if((!isset($_GET['gclid'])) && (!isset($_GET['utm_medium']))){
     echo "<h1>Welcome to Customero....you will be redirecting</h1>";
     // Get the current date and time
     $currentDate = date("Y-m-d H:i:s");
@@ -11,7 +11,7 @@ if((!isset($_GET['gclid'])) && (!isset($_GET['utm_medium']))){
     echo $currentDate."<br>";
     echo $userIP;
     die();
-}
+//}
 ?>
 <html>
     <head>
